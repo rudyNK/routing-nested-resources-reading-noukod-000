@@ -6,3 +6,5 @@ Rails.application.routes.draw do
 
   root 'posts#index'
 end
+get 'authors/:id/posts'
+  get 'authors/:id/posts/:post_id'
